@@ -48,12 +48,16 @@ module.exports = function (grunt) {
   }
   },
   uglify: {
-  main:{
+  release:{
   files: {
-      expand:true,
-      src:['*-*/*.js','list/*.js'],
-      dest:'dist/'
-'
+    'dist/dlg-about/dlg-about.js':'./dlg-about/dlg-about.js',
+    'dist/dlg-search/dlg-search.js':'./dlg-search/dlg-search.js',
+    'dist/dlg-font/dlg-font.js':'./dlg-font/dlg-font.js',
+    'dist/dlg-goto/dlg-goto.js':'./dlg-goto/dlg-goto.js',
+    'dist/dlg-replace/dlg-replace.js':'./dlg-replace/dlg-replace.js',
+    'dist/list/list.js':'./list/list.js',
+
+
   }
         
   }

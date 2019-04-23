@@ -49,11 +49,12 @@ module.exports = function (grunt) {
   },
   uglify: {
   main:{
-  files: [{
+  files: {
+      expand:true,
       src:['*-*/*.js','list/*.js'],
       dest:'dist/'
-
-  }]
+'
+  }
         
   }
   }

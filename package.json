@@ -1,0 +1,28 @@
+{
+  "name": "jsnotepad",
+  "version": "1.0.0",
+  "description": "关于对话框",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt lint && grunt minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangmeijing/jsnotepad.git"
+  },
+  "author": "yangmeijing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangmeijing/jsnotepad/issues"
+  },
+  "homepage": "https://github.com/yangmeijing/jsnotepad#readme",
+  "devDependencies": {
+    "grunt": ">=0.4.5",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  }
+}

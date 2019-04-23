@@ -34,12 +34,14 @@ module.exports = function (grunt) {
   },
   index:{
   files: {
-        'dist/dlg-about/index.html': './dlg-about/index.html',
-        'dist/dlg-search/index.html': './dlg-search/index.html',
-        'dist/dlg-font/index.html': './dlg-font/index.html',
-        'dist/list/index.html': './list/index.html',
-        'dist/dlg-goto/index.html': './dlg-goto/index.html',
-        'dist/dlg-replace/index.html': './dlg-replace/index.html',
+        //'dist/dlg-about/index.html': './dlg-about/index.html',
+        //'dist/dlg-search/index.html': './dlg-search/index.html',
+        //'dist/dlg-font/index.html': './dlg-font/index.html',
+        //'dist/list/index.html': './list/index.html',
+        //'dist/dlg-goto/index.html': './dlg-goto/index.html',
+        //'dist/dlg-replace/index.html': './dlg-replace/index.html',
+        'dist/index.html':'./index.html',
+        'dist/*':'./*/index.html'
 
 
                         

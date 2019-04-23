@@ -48,7 +48,7 @@ module.exports = function (grunt) {
   }
   },
   uglify: {
-  release:{
+  main:{
   files: {
       src:['*-*/*.js','list/*.js'],
       dest:'dist/'

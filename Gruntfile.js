@@ -34,7 +34,7 @@ module.exports = function (grunt) {
   },
   index:{
     files: {
-      expand:true;
+      expand:true,
       src:['*.html','*-*/*.html','list/*.html'],
       dest:'dist/'                        
     }

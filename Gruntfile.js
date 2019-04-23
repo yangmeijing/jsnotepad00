@@ -41,7 +41,7 @@ module.exports = function (grunt) {
         //'dist/dlg-goto/index.html': './dlg-goto/index.html',
         //'dist/dlg-replace/index.html': './dlg-replace/index.html',
         'dist/index.html':'./index.html',
-        'dist/*':'./*/index.html'
+        'dist/':'./*/index.html'
 
 
                         
